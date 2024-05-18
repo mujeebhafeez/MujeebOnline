@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MujeebOnline.Caching\MujeebOnline.Caching.csproj" />
+    <ProjectReference Include="..\MujeebOnline.Connector\MujeebOnline.Connector.csproj" />
+    <ProjectReference Include="..\MujeebOnline.Constants\MujeebOnline.Constants.csproj" />
+    <ProjectReference Include="..\MujeebOnline.ExceptionsAndLoggings\MujeebOnline.ExceptionsAndLoggings.csproj" />
+    <ProjectReference Include="..\MujeebOnline.Repositories\MujeebOnline.Repositories.csproj" />
+    <ProjectReference Include="..\MujeebOnline.Utility\MujeebOnline.Utility.csproj" />
+    <ProjectReference Include="..\MujeebOnline.ViewModels\MujeebOnline.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

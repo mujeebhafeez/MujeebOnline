@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-MujeebOnline.WorkerService-1f01d008-cd12-4936-9f51-0a691b3dc7dc</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MujeebOnline.AutoMapper\MujeebOnline.AutoMapper.csproj" />
+    <ProjectReference Include="..\MujeebOnline.Businesses\MujeebOnline.Businesses.csproj" />
+    <ProjectReference Include="..\MujeebOnline.Entities\MujeebOnline.Entities.csproj" />
+    <ProjectReference Include="..\MujeebOnline.ExceptionsAndLoggings\MujeebOnline.ExceptionsAndLoggings.csproj" />
+    <ProjectReference Include="..\MujeebOnline.Repositories\MujeebOnline.Repositories.csproj" />
+    <ProjectReference Include="..\MujeebOnline.Utility\MujeebOnline.Utility.csproj" />
+    <ProjectReference Include="..\MujeebOnline.ViewModels\MujeebOnline.ViewModels.csproj" />
+  </ItemGroup>
+</Project>

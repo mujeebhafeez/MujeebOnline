@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "MujeebOnline.Repositories": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:50471;http://localhost:50472"
+    }
+  }
+}
